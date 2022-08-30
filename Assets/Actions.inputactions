@@ -1,0 +1,74 @@
+{
+    "name": "Actions",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "17d5b417-e740-451b-8825-28151b427e40",
+            "actions": [
+                {
+                    "name": "Horizontal Movement",
+                    "type": "Value",
+                    "id": "c68870a5-fc2c-4b3a-9f96-71e196cef87f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Release Ball",
+                    "type": "Button",
+                    "id": "fae6f4b6-a228-4bf2-9259-f58ae06c0d27",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Left-Right",
+                    "id": "18f0dfd5-5641-4e4e-9229-655ea4b2e9da",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "4f8b5085-9354-4ba0-926b-a23957c98724",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "8acd11b2-c471-4303-9608-7f4f1eaf673a",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "bdb6085c-91b4-470e-9064-68c1aebfa747",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release Ball",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
